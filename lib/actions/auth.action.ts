@@ -113,3 +113,4 @@ export async function getCurrentUser(): Promise<User | null> {
     const user = await getCurrentUser();
     return !!user;
   }
+
